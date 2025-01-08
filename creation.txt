@@ -1,0 +1,8 @@
+Creator:
+
+python3 torsec_handler.py create test7.torsec 1234 testing-reward.html
+
+
+unarchiver:
+
+sudo python3 unarchiver.py

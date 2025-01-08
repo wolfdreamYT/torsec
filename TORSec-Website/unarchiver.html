@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download TORSec for secure and anonymous communication.">
+    <title>TORSec - Secure Download</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #74009a;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+        }
+
+        nav button {
+            background-color: #4a4a4a;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        nav button:hover {
+            background-color: #333;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .download-section {
+            background-color: #eaeaea;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .download-section h2 {
+            margin-top: 0;
+        }
+
+        .download-section a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #4a4a4a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #4a4a4a;
+            color: white;
+            padding: 10px 20px;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ccc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TORSec</h1>
+        <nav>
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='unarchiver.html'">* Unarchiver</button>
+            <button onclick="location.href='download.html'">Download</button>
+            <button onclick="location.href='#contact'">Contact</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to TORSec</h2>
+            <p>TORSec files cannot be opened like any other zipped or exe file. They must be opened through
+                our TORSec Unarchiver, a special unarchiver that can open it for you, with the contents
+                inside. Once a file has been created, you can open it by running the unarchiver, entering the 
+                archived files name, then it asks for a password, then after you put in a password, it then asks 
+                for a directory, and once that has been finished it will give you the folder as like a zipped one would.
+                Extremely secure, and no AI checkers can get to it, so kids and workers can use it to bypass multiple
+                backend/intense systems/servers to not get caught cheating on math/work. Read TOS (Terms of Service) for more rules.
+                <br>
+                <br>
+                Remember to install the libraries used in the python scripts, you can see them at the top as they are the 
+                "imports"; examples are: import os, import numpy, etc
+                <br>
+                <br>
+                To run script, enter "python3 unarchiver.py" in the terminal/command-prompt
+            </p>
+        </section>
+
+        <section id="download" class="download-section">
+            <h2>Download TORSec Unarchiver</h2>
+            <p>Select your platform to get started:</p>
+            <ul>
+                <li><a href="unarchiver.py" download>Windows</a></li>
+                <li><a href="unarchiver.py" download>MacOS</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TORSec Project | <a href="tos.html">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
